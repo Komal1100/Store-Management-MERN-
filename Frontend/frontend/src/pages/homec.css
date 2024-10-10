@@ -1,0 +1,30 @@
+.main{
+    display: flex;
+}
+.card{
+    margin: 35px;
+    border: none;
+}
+.card-body{
+    margin: 15px auto;
+}
+
+.btn{
+    font-size: xx-large;
+    font-family: cursive;
+    background: #ffffff;
+    color:red;
+    border: none;
+    
+}
+.card-img-top{
+    object-fit: cover;
+    width: 90%;
+    height: 94%;
+}
+
+.quote{
+    font-family: cursive;
+    text-align: center;
+    margin: center;
+}

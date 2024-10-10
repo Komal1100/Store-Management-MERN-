@@ -1,0 +1,54 @@
+/* Layout.css */
+
+html,body{
+  box-sizing: border-box;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+}
+.navbar {
+  margin-top: 0;
+  
+  background-color: #4a90e2; /* Background color */
+  border-radius: 8px; /* Rounded corners */
+ 
+  transition: background-color 0.3s ease; /* Transition for background color */
+}
+
+.navbar:hover {
+  background-color: #357ab8; /* Darker shade on hover */
+}
+
+.navbar-brand {
+  color: white; /* Brand name color */
+  font-weight: bold; /* Bold brand name */
+  transition: color 0.3s ease; /* Transition for brand color */
+}
+
+.navbar-brand:hover {
+  color: #ffc107; /* Change brand color on hover */
+}
+
+.nav-link {
+  color: rgb(58, 56, 56); /* Link color */
+  transition: color 0.3s ease, transform 0.3s ease; /* Transition for link color and transform */
+}
+
+.nav-link:hover {
+  color: #ffc107; /* Change link color on hover */
+  transform: scale(1.1); /* Slightly enlarge link on hover */
+}
+
+.nav-link.active {
+  font-weight: bold; /* Bold active link */
+  border-bottom: 2px solid #fff; /* Underline for active link */
+}
+
+/* Add a smooth transition for the navbar collapsing */
+.collapse {
+  transition: height 0.3s ease; /* Smooth height transition for collapsing */
+}
+
+/* Optional: Add a shadow effect */
+

@@ -1,0 +1,24 @@
+.sale-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.sale-table th,
+.sale-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.sale-table th {
+    background-color: #f2f2f2;
+}
+
+.sale-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.sale-table tr:hover {
+    background-color: #f1f1f1;
+}

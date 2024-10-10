@@ -1,0 +1,14 @@
+.card{
+    border: 2px solid black;
+    padding: 0;
+   
+}
+.img{
+    object-fit: cover;
+    
+}
+
+.heading{
+    text-align: center;
+    font-size: 50px;
+}
